@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { GlobalContext } from "../context/GlobalState";
 import DeleteIcon from "@mui/icons-material/Delete";
-import { Typography, Box, Card, Grid, Button } from "@mui/material";
+import { Typography, Box, Card, Grid } from "@mui/material";
 
 export default function HistoryList({ transaction }) {
   const { deleteTransaction } = useContext(GlobalContext);
